@@ -1,7 +1,21 @@
-Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+# Danielle's Book Search Engine
+This Google Books API search enginge uses a GRAPHQL API built with Apollo server. This app allows users to search for books save save books they have read to their profile
 
-Modify the existing authentication middleware so that it works in the context of a GraphQL API.
+## Table of Contents
+* Languages
+* Preview
+* Installation
 
-Create an Apollo Provider so that requests can communicate with an Apollo Server.
+## Languages
+* Express
+* React
+* Node.js
+* MongoDB
 
-Deploy the application to Heroku.
+## Preview
+
+## Installation
+Clone this repository to your computer. Run npm install and then npm start.
+
+## License 
+This project is licensed under MIT.
