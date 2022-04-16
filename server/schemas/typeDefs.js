@@ -14,10 +14,15 @@ const typeDefs = gql `
         bookId: ID!
         authors: [String]
         description: String
-        mage: String
+        image: String
         link: String
         title: String!
      }
+
+     type Auth {
+        token: ID!
+        user: User
+    }
 
     input bookInput {
         authors: [String]
@@ -28,7 +33,7 @@ const typeDefs = gql `
     }
 
     type Query {
-        users: [User]
+        me: User
         
     }    
 
@@ -39,10 +44,6 @@ const typeDefs = gql `
         removeBook(bookId: ID!): User
     }
 
-    type Auth {
-        token: ID!
-        user: User
-    }
 `
 
 
