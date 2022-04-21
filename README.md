@@ -13,6 +13,7 @@ This Google Books API search enginge uses a GRAPHQL API built with Apollo server
 * MongoDB
 
 ## Preview
+[!screenshot of the book search engine homepage](./assets/book-search-engine.png)
 
 ## Installation
 Clone this repository to your computer. Run npm install and then npm start.
